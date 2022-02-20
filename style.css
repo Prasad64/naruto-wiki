@@ -1,10 +1,41 @@
+body{
+    margin: 0;
+    background-image: -moz-linear-gradient();
+}
+header{
+    margin: 0;
+    background-color: orangered;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+header h1{
+   color: white; 
+}
+header p{
+    color: white; 
+}
+header img{
+    border-radius: 500px;
+    width: 700px;
+    border: 10px solid brown;
+}
+
+
+
+
+
+
+
+
+
 .para{
     font-size: 30px;
     font-style:oblique;
     
 }
 .title{
-    font-size: 100px;
+    font-size: 150px;
     
 }
 .content{
