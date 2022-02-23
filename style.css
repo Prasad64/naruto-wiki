@@ -4,13 +4,13 @@ body{
 }
 header{
     margin: 0;
-    background-color: rgb(212, 78, 29);
+    background-color: rgb(228, 90, 39);
     text-align: center;
     padding-top: 50px;
     padding-bottom: 25px;
 }
 header h1{
-   color: white; 
+   color: rgb(10, 10, 10); 
 }
 header p{
     color: rgb(10, 1, 1); 
@@ -26,24 +26,28 @@ h1, h2{
 main{
     max-width: 900px;
     margin: 0 auto; 
-    padding: 0 20px;
+    padding: 20px;
 }
 main img{
     max-width: 100%;
 }
 footer{
+    background-color: orangered;
     text-align: center;
     font-family: 'Mulish', sans-serif;
     font-size: 30px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 50px;
 }
-
-
-
-
-
-
+footer p{
+    margin: 0;
+}
+a{
+    color: orangered;
+}
+a:hover{
+    color: rgb(0, 110, 255);
+}
 .para{
     font-size: 30px;
     font-family: 'Mulish', sans-serif;
